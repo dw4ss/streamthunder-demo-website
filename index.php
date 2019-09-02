@@ -5,8 +5,8 @@
 
 <?php 
       
-      include('inc/conf.php');
-      include('inc/head.php'); 
+      include 'inc/conf.php';
+      include 'inc/head.php';
       
 ?>
 
