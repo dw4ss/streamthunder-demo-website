@@ -6,8 +6,8 @@
 <?php 
       $base = "/live-stream-sports";
       $match = $_GET['t'];
-      include('..inc/conf.php');
-      include('..inc/head.php'); 
+      include '..inc/conf.php';
+      include '..inc/head.php'; 
       
 ?>
  
@@ -36,7 +36,7 @@
 
              <div class="collapse navbar-collapse top__menu submenu" id="aff">
                
-			   <?php include('..inc/sports_m.php'); ?>
+			   <?php include '..inc/sports_m.php'; ?>
 			   
             </div>
  
