@@ -1,6 +1,6 @@
 **Streamthunder Demo Website**  
 
-Demo website runing Streamthunder widget
+Demo website running Streamthunder widget
 
 **Getting Started** 
 
