@@ -25,11 +25,3 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 **Acknowledgments**  
 
 Feel free to use this code and modify as your needs
-
-**Demo Website**
-
-https://streamhd.ws 
-
-**Streamthunder Widget**  
-
-https://streamthunder.to
