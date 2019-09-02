@@ -8,9 +8,9 @@
     <meta name="keywords" content="live stream hd, live sports, live <?php echo $page; ?>" />
     <meta property="og:title" content="<?php echo $page; ?> | <?php echo $site; ?>">
     <meta property="og:description" content="<?php echo $texts; ?>">
-    <meta property="og:url" content="https://www.live-streamhd.me/<?php echo $img; ?>">
+    <meta property="og:url" content="<?php echo $base; ?>/<?php echo $img; ?>">
     <meta property="og:site_name" content="<?php echo $site_name; ?>">
-    <meta property="og:image" content="https://www.live-streamhd.me/images/img.png"/>
+    <meta property="og:image" content="<?php echo $base; ?>/images/img.png"/>
     <meta property="og:locale" content="<?php echo $meta_locale; ?>">
     <meta property="og:type" content="<?php echo $meta_type; ?>">
     <meta property="fb:app_id" content="">
@@ -22,7 +22,7 @@
     <meta name="twitter:creator" content="@">
     <meta name="twitter:image" content="<?php echo $img; ?>"/>
     <meta name="msapplication-TileColor" content="#e9c804">
-    <meta name="google-site-verification" content="XcxVr7iX0CgzqhClmogIyvlBtXScuAKx39utf8N8vQs"/>
+    <meta name="google-site-verification" content=""/>
     <link rel="canonical" href="<?php echo $base; ?>/<?php echo $tag; ?>"/>
     <link href="<?php echo $base; ?>/css/bootstrap.min.css" rel="stylesheet">
     <link href="<?php echo $base; ?>/css/lshd.css" rel="stylesheet">
