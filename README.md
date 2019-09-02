@@ -4,7 +4,7 @@ Demo website running Streamthunder widget
 
 **Getting Started** 
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Download the Depoyed version to deploy the project on a live server.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. Download the Deployed version to deploy the project on a live server.
 
 **Prerequisites** 
 
