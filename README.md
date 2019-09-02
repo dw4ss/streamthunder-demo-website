@@ -26,6 +26,10 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 Feel free to use this code and modify as your needs
 
-(Demo Website)[https://streamhd24.ws]
+**Demo Website**
 
-(Streamthunder Widget)[https://streamthunder.to]
+https://streamhd24.ws 
+
+**Streamthunder Widget**  
+
+https://streamthunder.to
