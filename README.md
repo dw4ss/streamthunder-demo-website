@@ -28,7 +28,7 @@ Feel free to use this code and modify as your needs
 
 **Demo Website**
 
-https://streamhd24.ws 
+https://streamhd.ws 
 
 **Streamthunder Widget**  
 
