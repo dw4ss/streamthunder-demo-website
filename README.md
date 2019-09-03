@@ -36,4 +36,14 @@ https://streamhd.ws
 
 **Streamthunder Widget**  
 
-https://streamthunder.to
+https://streamthunder.to  
+https://widget.streamthunder.to 
+
+**Streamthunder Widget configurations**  
+
+https://streamthunder.to/get-widget-streams/
+
+**Streamthunder Widget wordpress plugin**  
+
+https://wordpress.org/plugins/live-sports-streamthunder/
+
