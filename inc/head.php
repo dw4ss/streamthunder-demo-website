@@ -77,5 +77,14 @@ $( document ).ready(function() {
  
  });
  </script>
+
+ <style>
+ ul.nav.navbar-nav.sports_menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+</style>
  
  
