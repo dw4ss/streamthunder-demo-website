@@ -21,6 +21,9 @@ for ($a=0;$a<count($sports); $a++) {
  
 ?>
 
+<li>
+ <a class="btn btn-danger" style="padding:5px 10px;background:none !important; border:1px solid #e9c804; color:#e9c804" href="https://github.com/dw4ss/Streamthunder" target="_blank">Clone Website</a>
+ </li>
  
                                                                                     
           
