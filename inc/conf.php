@@ -2,9 +2,9 @@
 
 
     //widget source: https://www.streamthunder.to/get-widget-streams/
-    $base = "/streamthunder-demo-website";
-    $site = "Streamthunder demo website";
-    $powered = "Powered by Streamthunder";
+    $base = "https://www.streamhd.ws";
+    $site = "Streamhd";
+    $powered = $site;
     $img = "/images/img.png";
   
   
@@ -15,7 +15,7 @@
    
 
 	switch ($_SERVER["REQUEST_URI"]) {
-		case $base.'/':
+		case '/':
 			$page = 'All Sports'; 
             $page_title = 'Live Sports';
             $widget_uri = 'https://widget.streamthunder.to/?d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1';
@@ -26,62 +26,62 @@
            <p>With so much that’s underway, you will have to notice that <b>'.$site.'</b>  is in a constant state of flux, but you can rest assured that your streaming experience will remain intact. We have our own clever ways of managing to provide you with everything that you need without you experiencing any disturbance. Not in the very slightest. On top of that, we cover hundreds of matches in real time.</p>
            <p>What we mean when we say cover? Well, just that! We strive to continually add to our offer, and if we can’t find a stream, <strong>rest assured that all the important details</strong> will all be there. The plain fact of the matter is that we manage to track every match out there that will be of interest to you. This is quite the complete live <b>'.$site.'</b>  experience you have ever hoped for and to be honest – it’s all very much worth it. Rest assured that you have done well by picking us!</p>';
 			break;
-		case $base.'/football':
+		case '/football':
 			$page = 'Football'; 
             $page_title = 'Live Football';
             $widget_uri = 'https://widget.streamthunder.to/?sport=football&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/baseball':
+        case '/baseball':
 			$page = 'Baseball'; 
             $page_title = 'Live Baseball';
             $widget_uri = 'https://widget.streamthunder.to/?sport=baseball&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/ice-hockey':
+        case '/ice-hockey':
 			$page = 'Ice Hockey'; 
             $page_title = 'Live Ice Hockey';
             $widget_uri = 'https://widget.streamthunder.to/?sport=ice-hockey&&sp=4&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/american-football':
+        case '/american-football':
 			$page = 'American Football'; 
             $page_title = 'Live American Football';
             $widget_uri = 'https://widget.streamthunder.to/?sport=american-football&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/basketball':
+        case '/basketball':
 			$page = 'Basketball'; 
             $page_title = 'Live Basketball';
             $widget_uri = 'https://widget.streamthunder.to/?sport=basketball&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/racing':
+        case '/racing':
 			$page = 'Racing'; 
             $page_title = 'Live Racing';
             $widget_uri = 'https://widget.streamthunder.to/?sport=racing&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/rugby':
+        case '/rugby':
 			$page = 'Rugby'; 
             $page_title = 'Live Rugby';
             $widget_uri = 'https://widget.streamthunder.to/?sport=rugby&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/tennis':
+        case '/tennis':
 			$page = 'Tennis'; 
             $page_title = 'Live Tennis';
             $widget_uri = 'https://widget.streamthunder.to/?sport=tennis&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
             break;
-        case $base.'/others':
+        case '/others':
 			$page = 'Others'; 
             $page_title = 'Other Live Sports';
             $widget_uri = 'https://widget.streamthunder.to/?sp=9&d=1&s=1&gf=Poppins&fs=13px&tt=none&fc=FFFFFF&tc=1F1F1F&bc=FFFFFF&bhc=f3f3f3&pd=10px&br=0px&brc=CCCCCC&brr=0px&mr=1px&tm=FFFFFF&tmb=141414&wb=EBEBEB&bcc=252525&bsh=0px&rdb=EBEBEB&rdc=333333&&l='.$ad_link1.'&lt=1&lsp=1&lco=1&lcy=1&lda=1&lk=1&l2='.$ad_link2.'&l2t=1&l2sp=1&l2co=1&l2cy=1&l2da=1&lk=1'; 
             $texts = "";
 			break;
 		default:
-            $page = ''; 
+            $page = 'Demo'; 
             $page_title = '';
             $widget_uri = '';
             $texts = '';

@@ -32,7 +32,7 @@
     <h1 class="animated zoomIn"><?php echo $page; ?> Stream HD</h1>
       
               
-                <h2 class="animated zoomIn"><?php echo $page; ?> on Streamthunder Demo Website</h2> <br>
+                <h2 class="animated zoomIn"><?php echo $page; ?> on <?php echo $site; ?></h2> <br>
 
                 <a class="stream-now light btn btn-default btn-stream" href="<?php echo $base; ?>/stream-now" target="_blank">Stream in HD</a>
     </div>
