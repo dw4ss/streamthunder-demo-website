@@ -36,12 +36,12 @@ https://streamhd.ws
 
 **Streamthunder Widget**  
 
-https://streamthunder.to  
-https://widget.streamthunder.to 
+https://streamsthunder.tv  
+https://widget.streamsthunder.tv  
 
 **Streamthunder Widget configurations**  
 
-https://streamthunder.to/get-widget-streams/
+https://streamsthunder.tv/get-widget-streams/
 
 **Streamthunder Widget wordpress plugin**  
 
